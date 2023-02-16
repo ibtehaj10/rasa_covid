@@ -1,0 +1,230 @@
+version: "3.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: say goodbye
+#   steps:
+#   - intent: goodbye
+#   - action: utter_goodbye
+
+# - story: bot challenge
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
+
+- story: social distance
+  steps:
+  - intent: faq_social_distance
+  - action: utter_faq_social_distance
+  
+- story: quarantine
+  steps:
+  - intent: faq_quarantine
+  - action: utter_faq_quarantine
+
+# - story: travel
+#   steps:
+#   - intent: faq_travel
+#   - action: utter_faq_travel
+
+- story: symptoms
+  steps:
+  - intent: faq_symptoms
+  - action: utter_faq_symptoms
+
+- story: cough
+  steps:
+  - intent: faq_cough
+  - action: utter_faq_cough
+
+- story: fever
+  steps:
+  - intent: faq_fever
+  - action: utter_faq_fever
+
+# - story: die
+#   steps:
+#   - intent: faq_die
+#   - action: utter_faq_die
+
+- story: hospital
+  steps:
+  - intent: faq_hospital
+  - action: utter_faq_hospital
+
+- story: no symptoms
+  steps:
+  - intent: faq_no_symptoms
+  - action: utter_faq_no_symptoms
+
+# - story: might symptoms
+#   steps:
+#   - intent: faq_might_symptoms
+#   - action: utter_faq_might_symptoms
+
+- story: virus feeling
+  steps:
+  - intent: faq_virus_feeling
+  - action: utter_faq_virus_feeling
+
+- story: asymptomatic
+  steps:
+  - intent: faq_asymptomatic
+  - action: utter_faq_asymptomatic
+
+- story: virus
+  steps:
+  - intent: faq_virus
+  - action: utter_faq_virus
+
+- story: vaccine
+  steps:
+  - intent: faq_vaccine
+  - action: utter_faq_vaccine
+
+- story: vaccine research
+  steps:
+  - intent: faq_vaccine_research
+  - action: utter_faq_vaccine_research
+
+- story: inoculation
+  steps:
+  - intent: faq_inoculation
+  - action: utter_faq_inoculation
+
+- story: cure
+  steps:
+  - intent: faq_cure
+  - action: utter_faq_cure
+
+- story: random
+  steps:
+  - intent: faq_random
+  - action: utter_faq_random
+
+# - story: vulnerable
+#   steps:
+#   - intent: faq_vulnerable
+#   - action: utter_faq_vulnerable
+
+# - story: myself
+#   steps:
+#   - intent: faq_myself
+#   - action: utter_faq_myself
+
+# - story: pets
+#   steps:
+#   - intent: faq_pets
+#   - action: utter_faq_pets
+
+# - story: myself risk
+#   steps:
+#   - intent: faq_myself_risk
+#   - action: utter_faq_myself_risk
+
+# - story: plans
+#   steps:
+#   - intent: faq_plans
+#   - action: utter_faq_plans
+
+# - story: should worried
+#   steps:
+#   - intent: faq_should_worried
+#   - action: utter_faq_should_worried
+
+# - story: can get
+#   steps:
+#   - intent: faq_can_get
+#   - action: utter_faq_can_get
+
+# - story: what if
+#   steps:
+#   - intent: faq_what_if
+#   - action: utter_faq_what_if
+
+# - story: age group
+#   steps:
+#   - intent: faq_age_group
+#   - action: utter_faq_age_group
+
+# - story: who who
+#   steps:
+#   - intent: faq_who_who
+#   - action: utter_faq_who_who
+
+# - story: why why
+#   steps:
+#   - intent: faq_why_why
+#   - action: utter_faq_why_why
+
+- story: changes
+  steps:
+  - intent: faq_changes
+  - action: utter_faq_changes
+
+- story: services
+  steps:
+  - intent: faq_services
+  - action: utter_faq_services
+
+- story: open opertating
+  steps:
+  - intent: faq_open_opertating
+  - action: utter_faq_open_opertating
+
+- story: meet meeting
+  steps:
+  - intent: faq_meet_meeting
+  - action: utter_faq_meet_meeting
+
+- story: faq
+  steps:
+  - intent: faq_faq
+  - action: utter_faq_faq
+
+- story: wfh
+  steps:
+  - intent: company_wfh
+  - action: utter_company_wfh
+
+- story: wfo
+  steps:
+  - intent: company_wfo
+  - action: utter_company_wfo
+
+- story: staff
+  steps:
+  - intent: company_staff
+  - action: utter_company_staff
+
+- story: key workers
+  steps:
+  - intent: company_key_workers
+  - action: utter_company_key_workers
